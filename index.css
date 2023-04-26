@@ -19,6 +19,7 @@
 .img-container img {
     width: 10rem;
     height: 15vh;
+    box-shadow: rgba(167, 163, 163, 0.45) 0px 25px 20px -20px;
 }
 
 
