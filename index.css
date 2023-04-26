@@ -11,10 +11,19 @@
     gap: 20px;
 }
 
+.img-container {
+    gap: 20px;
+}
 
 .img-container img {
-    width: 10vw;
+    width: 10rem;
     height: 15vh;
+}
+
+
+
+.img-container-1 img {
+    width: 5vw;
 
 }
 
@@ -27,7 +36,11 @@
     width: 100%;
 }
 
-@media screen and (max-width: 500px) {
-    .img-container img {}
+@media screen and (max-width: 700px) {
+    .img-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
 
 }
